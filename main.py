@@ -120,13 +120,13 @@ def generate_pdf_report(results, client_name, address, isp):
     # Add Placeholder Images
     if image_1_path:
         pdf.ln(10)
-        pdf.cell(200, 10, "Additional Image 1", ln=True, align="C")
+        pdf.cell(200, 10, "Ping Speed Comparison Table", ln=True, align="C")
         pdf.ln(5)
         pdf.image(image_1_path, x=30, w=150)
 
     if image_2_path:
         pdf.ln(10)
-        pdf.cell(200, 10, "Additional Image 2", ln=True, align="C")
+        pdf.cell(200, 10, "Device Ping Expectnacy", ln=True, align="C")
         pdf.ln(5)
         pdf.image(image_2_path, x=30, w=150)
 
